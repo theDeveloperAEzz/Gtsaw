@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883548522404",
+    "firebase_url": "https://gtsaw-885a5.firebaseio.com",
+    "project_id": "gtsaw-885a5",
+    "storage_bucket": "gtsaw-885a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883548522404:android:232b49ba6b10857f",
+        "android_client_info": {
+          "package_name": "com.example.thedeveloper.gtsaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883548522404-rn5fp0qjh748t5l1ciufjrgh8jsktj3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thedeveloper.gtsaw",
+            "certificate_hash": "efc1df3b934ff5421419a5767be56a5983ad6f77"
+          }
+        },
+        {
+          "client_id": "883548522404-52jkvddp7trflq069vjgvct3gtultpkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ2sJYMWM6yKkWdSFCNsMzrOPAtysz9IA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883548522404-52jkvddp7trflq069vjgvct3gtultpkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

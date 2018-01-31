@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:facebook="https://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="NamespaceTypo">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/login_card"
+        style="@style/SelectableItemTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="4dp"
+        tools:ignore="KeyboardInaccessibleWidget,ObsoleteLayoutParam">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtViewHelloAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                android:paddingStart="5dp"
+                android:text="hello you are signed up as admin enter Admin's password"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,RtlCompat,RtlSymmetry" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_admin_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtViewHelloAdmin"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textColorHint="#a9a59f">
+
+                <EditText
+                    android:id="@+id/et_admin_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectorbgedit"
+                    android:gravity="center_horizontal"
+                    android:hint="Admin pass"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textCursorDrawable="@drawable/bginputcursor"
+                    android:textSize="15dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/ok_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_admin_pass"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_bg"
+                android:stateListAnimator="@drawable/statelistanimatorz"
+                android:text="OK"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                tools:ignore="UnusedAttribute" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
